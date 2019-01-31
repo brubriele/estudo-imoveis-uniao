@@ -1,0 +1,220 @@
+.container * {
+  width: 95%;
+}
+
+
+h3, span, h2 {
+  font-family: 'Poiret One', cursive;
+}
+
+.subTitSpan {
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(252, 246, 246);
+  border-radius: 5px;
+}
+
+
+/* Plots */
+.plotxlsx {
+    width: 500px;
+    height: 430px;
+}
+
+.plotxlsxPie {
+    width: 500px;
+}
+
+.plotDistr {
+  width: 415px;
+  height: 350px;.dashboard {
+  display: grid;
+  grid-template-columns: 300px 1fr 1fr 1fr;
+  grid-template-rows: 50% 50%;
+  height: calc(100vh - 110px);
+  margin-top: 20px;
+}
+
+
+.dashboard .main {
+  grid-row: 1 / span 2;
+  grid-column: 1 / span 1;
+}
+.dashboard .description {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 3;
+}
+.dashboard-card {
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 2px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 992px) {
+  .dashboard {
+    display: block;
+  }
+}
+
+
+/* Fonts and colors */
+.dashboard h2 {
+  font-size: 25px;
+}
+.dashboard h3, span {
+  color: #37B686;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.dashboard p {
+  color: rgba(0,0,0,0.5);
+  font-size: 16px;
+}
+
+.dashboard .btn {
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  margin-top: 30px;
+  background: #37B686;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 20px;
+}
+.dashboard .btn:hover {
+  background: #37B686;
+  opacity: 0.7;
+}
+.main p {
+  margin-bottom: 30px;
+}
+    margin: 100px 0px;
+}
+
+
+table, p, h1, h4, .btn {
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+h4{
+    color: gray;
+}
+
+.final{
+    margin-right: 200px;
+}
+
+.dashboard, .dashboardTwo {
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    grid-template-rows: 49% 49%;
+    height: calc(100vh - 110px);
+    margin-top: 20px;
+  }
+
+ 
+
+ 
+  .dashboard .main {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+  }
+  .dashboard .description {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 3;
+  }
+  .dashboard-card {
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 2px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  
+  @media (max-width: 992px) {
+    .dashboard {
+      display: block;
+    }
+  }
+
+ 
+  
+  /* Fonts and colors */
+  .dashboard h2, .dashboardTwo h2, .apresenta h2 {
+    font-size: 25px;
+  }
+  h3, span{
+    color: #00ADB5;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .subTit{
+    color: rgb(220, 240, 232);
+    background-color: #00ADB5;
+    border-radius: 5px;
+    width: 300px;
+    padding: 19px;
+    margin: auto;
+    text-align: center;
+  }
+  .dashboard p, .dashboardTwo p,  {
+    color: rgba(0,0,0,0.5);
+    font-size: 20px;
+  }
+
+  .apresenta p {
+    font-size: 25px;
+
+  }
+
+  .botoes{
+    display: inline-flex;
+    justify-items: center;
+
+  }
+
+  .btn {
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-top: 30px;
+    margin: 15px;
+    background: #00ADB5;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 20px;
+  }
+  .btn:hover {
+    background: #00ADB5;
+    opacity: 0.7;
+  }
+  .main p {
+    margin-bottom: 30px;
+  }
+
+  /* span {
+      color: #00ADB5);
+  } */
+
+/* Table */
+  td, th {
+    width: 11rem;
+    height: 0rem;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  th {
+    background: #00ADB5;
+    border-color: white;
+  }
