@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Projeto AED-IME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Saira+Extra+Condensed" rel="stylesheet">
+    <link rel="icon" href="img/favicon/favi.png" type="image/gif" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Poiret+One" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="navbar-minimal">
+    </div>
+
+    <div class="container">
+
+        <div class="apresenta">
+            <h3 class="subTit">Projeto - AED <br> <span class="subTitSpan">Um olhar sobre os bens imobiliários da União</span>
+            </h3>
+
+            <ul>
+                <li><strong>Apresentação:</strong> 01.02.2019</li>
+                <p></p>
+                <li><strong>Grupo:</strong></li>
+                <li></li>
+                <li>Ana de Paula</li>
+                <li>Bruna G Paula</li>
+                <li>Fabíola Canedo Yugar</li>
+                <li>Juliana Trevine</li>
+                <li>Patrícia Guissordi</li>
+                <p></p>
+                <li><strong>Fonte:</strong><a href="http://www.planejamento.gov.br/assuntos/patrimonio-da-uniao/consulta-de-imoveis-da-uniao/imoveis-dominiais"
+                    target="_blank">Dados Abertos - Imóveis da União</a></li>
+            </ul>
+
+
+
+            <h3>Metodologia</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi esse quia nam optio perspiciatis ipsum
+                natus aliquid ut iusto totam pariatur voluptatibus sint ea consectetur vitae quaerat, aperiam et omnis?</p>
+
+            <!-- <h3 class="subTit">imóveis</h3> -->
+
+            <div class="botoes">
+
+
+                <a class="btn" href="responsaveis.html">DASH</a>
+                <a class="btn" href="correlacoes.html">DASH</a>
+
+            </div>
+
+
+        </div>
+
+        <div class="dashboard">
+
+
+            <div class="dashboard-card stat">
+                <div class="dashboard-card-content">
+                    <strong><span class="count" id="count">85</span><span>%</span></strong>
+                    <p>Descrição do destaque... </p>
+                </div>
+            </div>
+            <div class="dashboard-card stat">
+                <div class="dashboard-card-content">
+                    <strong><span class="count" id="count">90</span><span>%</span></strong>
+                    <p>Descrição do destaque....</p>
+                </div>
+
+            </div>
+            <div class="dashboard-card stat">
+                <div class="dashboard-card-content">
+                    <h3>Nome DASH <span>&#9660</span></h3>
+                    <h2>Lorem ipsum dolor sit amet </h2>
+                    <p>Lorem ipsum, dolor sit amet <br>x<br> UF</p>
+                </div>
+            </div>
+            <!-- <div class="dashboard-card description">
+                <div class="dashboard-card-content"> -->
+            <div>
+                <h3>Dataset</h3>
+
+                <!-- <table>
+                    <thead>
+                        <tr>
+                            <th>UF</th>
+                            <th>Dominial</th>
+                            <th>Imóvel Funcional</th>
+                            <th>Uso Especial</th>
+                            <th>Freq. Linear<br>(classes)</th>
+                            <th>Total</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>AC</td>
+                            <td>3618</td>
+                            <td>11</td>
+                            <td>305</td>
+                            <td><img src="img/ac.JPG" alt="mini-chart"></td>
+                            <td>3934</td>
+
+                        </tr>
+                        <tr>
+                            <td>AP</td>
+                            <td>889</td>
+                            <td>10</td>
+                            <td>219</td>
+                            <td><img src="img/ap.JPG" alt="mini-chart"></td>
+                            <td>1118</td>
+
+                        </tr>
+                        <tr>
+                            <td>BA</td>
+                            <td>32715</td>
+                            <td>10</td>
+                            <td>1461</td>
+                            <td><img src="img/ba.JPG" alt="mini-chart"></td>
+                            <td>34186</td>
+
+                        </tr>
+                        <tr>
+                            <td>CE</td>
+                            <td> 15562 </td>
+                            <td> 4 </td>
+                            <td> 902 </td>
+                            <td><img src="img/ce.JPG" alt="mini-chart"></td>
+                            <td> 16468 </td>
+
+                        </tr>
+                        <tr>
+                            <td>DF</td>
+                            <td> 1459 </td>
+                            <td> 7313 </td>
+                            <td> 3688 </td>
+                            <td><img src="img/df.JPG" alt="mini-chart"></td>
+                            <td> 12460 </td>
+
+
+
+                        </tr>
+                        <tr>
+                            <td>MA</td>
+                            <td> 30646 </td>
+                            <td> 21 </td>
+                            <td> 1038 </td>
+                            <td><img src="img/ma.JPG" alt="mini-chart"></td>
+                            <td> 31705 </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>MG</td>
+                            <td> 422 </td>
+                            <td> 4 </td>
+                            <td> 2333 </td>
+                            <td><img src="img/mg.JPG" alt="mini-chart"></td>
+                            <td> 2759 </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>MS</td>
+                            <td> 525 </td>
+                            <td> 1 </td>
+                            <td> 1380 </td>
+                            <td><img src="img/ms.JPG" alt="mini-chart"></td>
+                            <td> 1906 </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>MT</td>
+                            <td> 4123 </td>
+                            <td> 2 </td>
+                            <td> 784 </td>
+                            <td><img src="img/mt.JPG" alt="mini-chart"></td>
+                            <td> 4909 </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>PA</td>
+                            <td> 31046 </td>
+                            <td> 1 </td>
+                            <td> 1429 </td>
+                            <td><img src="img/pa.JPG" alt="mini-chart"></td>
+                            <td> 32476 </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>PE</td>
+                            <td> 102435 </td>
+                            <td> 16 </td>
+                            <td> 1654 </td>
+                            <td><img src="img/pe.JPG" alt="mini-chart"></td>
+                            <td> 104105 </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>PI</td>
+                            <td> 7984 </td>
+                            <td> 4 </td>
+                            <td> 770 </td>
+                            <td><img src="img/pi.JPG" alt="mini-chart"></td>
+                            <td> 8758 </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>PR</td>
+                            <td> 11209 </td>
+                            <td> 1 </td>
+                            <td> 2005 </td>
+                            <td><img src="img/pr.JPG" alt="mini-chart"></td>
+                            <td> 13215 </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>RJ</td>
+                            <td> 107525 </td>
+                            <td> 1 </td>
+                            <td> 4079 </td>
+                            <td><img src="img/rj.JPG" alt="mini-chart"></td>
+                            <td> 111605 </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>RN</td>
+                            <td> 8938 </td>
+                            <td> 1 </td>
+                            <td> 708 </td>
+                            <td><img src="img/rn.JPG" alt="mini-chart"></td>
+                            <td> 9647 </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>RO</td>
+                            <td> 428 </td>
+                            <td> 6 </td>
+                            <td> 740 </td>
+                            <td><img src="img/ro.JPG" alt="mini-chart"></td>
+                            <td> 1174 </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>RS</td>
+                            <td> 11893 </td>
+                            <td> 1 </td>
+                            <td> 2471 </td>
+                            <td><img src="img/rs.JPG" alt="mini-chart"></td>
+                            <td> 14365 </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>SE</td>
+                            <td> 31933 </td>
+                            <td> 1 </td>
+                            <td> 564 </td>
+                            <td><img src="img/se.JPG" alt="mini-chart"></td>
+                            <td> 32498 </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>SP</td>
+                            <td> 99510 </td>
+                            <td> 7 </td>
+                            <td> 6705 </td>
+                            <td><img src="img/sp.JPG" alt="mini-chart"></td>
+                            <td> 106222 </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>TO</td>
+                            <td> 832 </td>
+                            <td> 25 </td>
+                            <td> 742 </td>
+                            <td><img src="img/to.JPG" alt="mini-chart"></td>
+                            <td> 1599 </td>
+
+
+                        </tr>
+
+                        <tr>
+                            <td>Total</td>
+                            <td> 503692 </td>
+                            <td> 7440 </td>
+                            <td> 33977 </td>
+                            <td><img src="img/total.JPG" alt="mini-chart"></td>
+                            <td> 545109 </td>
+                        </tr>
+                    </tbody>
+                </table> -->
+
+
+
+            </div>
+
+            <div>
+                <h3>Gráfico</h3>
+                <p class="text-justify">
+
+                </p>
+
+                <!-- <img src="img/plots/dominial-plot.jpeg" alt="">
+
+                <img src="img/plots/summary-dados_omit.JPG" alt=""> -->
+
+
+            </div>
+
+            <div>
+                <h3>Análise</h3>
+                <p class="text-justify">A partir do histograma podemos observar que a frequência mais volumosa do
+                    dataset corresponde à classe de imóveis dominiais, distribuída de forma positivamente enviesada <em>positively
+                        skewed</em> , onde a maioria dos dados
+                    (92%) se concentra ao lado esquerdo.
+                </p>
+<!-- 
+                <img class="plotxlsxPie" src="img/plots/plot-classe-distribuicao.JPG" alt=""> -->
+                <p>Podemos notar também que a modalidade de imóveis dominiais, isto é, aqueles não ocupados
+                    pela Administração Pública, mas cedidos a terceiros por meio de instrumentos de regularização
+                    fundiária, tais como: aforamentos; Concessões de Direito Real de Uso (CDRU); e Concessão de Uso
+                    Especial para fins de Moradia (CUEM), tem frequência linear assimétrica em relação às outras
+                    classes, com destaque para os estados de SP, PE e RJ que juntos retém 57% de imóveis dominiais da
+                    união. </p>
+                <p>
+
+                    Em termos de representatividade das classes por UF, verificamos que o estado onde mais se
+                    concentram os dominiais é no RJ (21%), enquanto que os de uso especial em maior frequência estão
+                    localizados em SP(20%), com destaque para imóveis funcionais em DF(98%).</p>
+
+
+
+
+                <img src="img/plots/plot-classe-uf-representa.JPG" alt="">
+
+
+
+            </div>
+
+            <div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <!-- </div>
+            </div> -->
+        </div>
+
+
+    </div>
+
+
+
+    <script src="scripts/scripts.js"></script>
+
+
+</body>
+
+</html>

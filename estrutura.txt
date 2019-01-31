@@ -1,0 +1,14 @@
+- Distribuição dos bens da união por Estado
+	Panorama dos dados
+
+
+- Tipos de imóvel - Análise univariada
+	- Uso e Sem uso
+	- Tipo Imóvel por Uso
+	- Tipo de Imóvel por Regime de Utilização
+	- Tipo de Imóvel por Classe - "terrenos"
+
+
+- Sumário Básico - 
+ 	Análise descritiva População 
+	
